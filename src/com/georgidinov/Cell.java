@@ -1,6 +1,6 @@
 package com.georgidinov;
 
-public class Cell implements Cloneable {
+public class Cell {
 
     //== fields ==
     private final int row;
@@ -37,19 +37,5 @@ public class Cell implements Cloneable {
     public void setCellColor(CellColor cellColor) {
         this.cellColor = cellColor;
     }
-
-    @Override
-    protected Cell clone() throws CloneNotSupportedException {
-        return (Cell) super.clone();
-    }//end of method clone
-
-    @Override
-    public String toString() {
-        return "Cell{" +
-                "row=" + row +
-                ", col=" + col +
-                ", cellColor=" + cellColor +
-                '}';
-    }//end of method toString
 
 }//end of class Cell

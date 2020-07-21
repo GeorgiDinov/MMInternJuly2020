@@ -2,7 +2,7 @@ package com.georgidinov;
 
 public enum CellColor {
 
-    //== enums ==
+    //== constants ==
     RED(0), GREEN(1);
 
 
